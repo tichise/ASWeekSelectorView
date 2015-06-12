@@ -305,9 +305,9 @@
   // default styles
   _letterTextColor = [UIColor colorWithWhite:204.f/255 alpha:1];
   _numberTextColor = [UIColor colorWithWhite:77.f/255 alpha:1];
-  _lineColor = [UIColor colorWithWhite:245.f/255 alpha:1];
+  _lineColor = [UIColor clearColor];
   _selectorBackgroundColor = [UIColor clearColor];
-  _selectorLetterTextColor = [UIColor clearColor];
+  _selectorLetterTextColor = [UIColor whiteColor];
   _preDragOffsetX = MAXFLOAT;
   _preDragSelectionX = MAXFLOAT;
   _locale = [NSLocale autoupdatingCurrentLocale];
